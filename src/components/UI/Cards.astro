@@ -1,0 +1,21 @@
+---
+import Card from "./Card.astro"
+---
+<div class="thegames">
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+    <Card/>
+</div>
+
+<style>
+    .thegames{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(300px, auto);
+    }
+</style>

@@ -1,0 +1,9 @@
+---
+import Layout from "../layouts/Layout.astro"
+
+import {TicTacToeGame} from "../components/GAMES/TicTacToeGame.jsx"
+---
+
+<Layout title="juego del 3 en raya">
+    <TicTacToeGame client:only="react" />
+</Layout>
